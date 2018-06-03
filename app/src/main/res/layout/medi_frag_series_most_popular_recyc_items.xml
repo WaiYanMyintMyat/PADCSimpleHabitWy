@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_medi_frag_series_most_popular_recyc_items_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mostpopular"
+        android:textColor="@color/whiteAll"
+        android:textSize="@dimen/font_medium"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium1"
+        android:layout_marginBottom="@dimen/margin_small"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_medi_frag_series_most_popular_recyc_items"
+        android:layout_below="@+id/tv_medi_frag_series_most_popular_recyc_items_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

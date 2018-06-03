@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PADCSimpleHabitWy1</string>
+
+    <!--Bottom Navigation View Three part-->
+    <string name="meditate">Meditate</string>
+    <string name="me">Me</string>
+    <string name="more">More</string>
+
+    <!--Tab Layout Three part-->
+    <string name="onthego">On The Go</string>
+    <string name="teachers">Teachers</string>
+    <!--Fragment Series-->
+    <string name="start_here">Start Here</string>
+    <string name="simplehabitstarter">Simple Habit Starter</string>
+    <string name="min5">5 mins</string>
+    <string name="moriningmeditation">Morning Meditations</string>
+    <string name="worrryfree">Worry Free</string>
+    <string name="healthymind">A Healthy Mind</string>
+
+    <string name="ahealthymind">A Healthy Mind</string>
+    <string name="simplehabit">New on Simple Habit</string>
+    <string name="mostpopular">Most Popular</string>
+    <string name="alltopic">All Topics</string>
+    <string name="basics">Basics</string>
+    <string name="search">Search</string>
+    <string name="download">Download</string>
+    <string name="readmore">READ MORE</string>
+    <string name="sessions">SESSIONS</string>
+</resources>

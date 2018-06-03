@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_bnv_meditate"
+        android:title="@string/meditate"
+        android:icon="@drawable/ic_play_circle_filled_black_24dp"
+        />
+    <item
+        android:id="@+id/menu_bnv_me"
+        android:title="@string/me"
+        android:icon="@drawable/ic_person_black_24dp"
+        />
+
+    <item
+        android:id="@+id/menu_bnv_more"
+        android:title="@string/more"
+        android:icon="@drawable/ic_more_horiz_black_24dp" />
+</menu>

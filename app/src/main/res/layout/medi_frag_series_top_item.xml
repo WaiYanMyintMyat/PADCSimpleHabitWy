@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_medi_frag_series_start_here_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium1"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium1"
+        android:text="@string/start_here"
+        android:textColor="@color/whiteAll"
+        android:textSize="@dimen/font_medium" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/big_card_height"
+        android:layout_below="@+id/tv_medi_frag_series_start_here_title"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"
+        app:cardBackgroundColor="@color/colorCardBg"
+        app:cardCornerRadius="@dimen/margin_medium">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add_white_24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/margin_small"/>
+
+                <TextView
+                    android:id="@+id/tv_current_simplehabit_title"
+                    android:text="@string/simplehabitstarter"
+                    android:textColor="@color/whiteAll"
+                    android:textSize="@dimen/font_big"
+                    android:layout_above="@+id/btn_medi_frag_series_day_one"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_medium"/>
+
+                <Button
+                    android:id="@+id/btn_medi_frag_series_day_one"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="Start"
+                    android:textAllCaps="false"
+                    android:background="@drawable/draw_btn_day_modified"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/whiteAll"
+                    android:drawableLeft="@drawable/ic_play_arrow_white_24dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_current_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/min5"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/font_medium"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="@dimen/margin_medium"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

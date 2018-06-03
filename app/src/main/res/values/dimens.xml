@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--margin-->
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_medium1">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_large1">24dp</dimen>
+    <dimen name="margin_large2">40dp</dimen>
+
+    <!--font size-->
+    <dimen name="font_medium">16sp</dimen>
+    <dimen name="font_big">20sp</dimen>
+
+    <!--cardvew-->
+    <dimen name="big_card_height">180dp</dimen>
+    <dimen name="medium_card_height">120dp</dimen>
+
+
+</resources>
